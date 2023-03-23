@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/06e4965d66.js" crossorigin="anonymous"></script>
+    <title>Timothy Portfolio</title>
+</head>
+<body>
+    <!-- This is the header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <div class="logo">
+                    <img src="img/portfolio pics1.jpeg" alt="logo pics">
+                </div> -->
+                <h1 class="brand"><span>T</span>imothy.</h1>
+                <ul id="sidemenu">
+                  <li><a href="#Hheader">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <!-- hambuger -->
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p class="">FRONTEND ENGINEER</p>
+                <h1>Hi i'm <span class="text animation">Timothy</span> <br>from Lagos Nigeria</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- This is the About Me section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/Timosticks.jpg" alt="picture of timothy ">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am a software developer, specialized in Web development arena. I have over a year of experience in a few web programming languages and Technologies.
+                        I build platforms and apps that are easy to use and visually appealing to end-users for businesses and corporate entities.
+                        I have passion for technology space and i'm always willing to learn new programming language...
+
+                        You can connect with me via my contact or social links/handles below.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills:</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience:</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education:</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Word Press (CMS)</span><br>Building & hosting websites with Content Management System </li>
+
+                            <li><span>Web Development</span><br> Build and maintain websites with codes from scratch, using suitable web Technologies... STACKS; html & Css, Bootstrap/Tailwind, JavaScript/ES6, React.js, Next.js etc.  </li>
+
+                            <li><span>Microsoft Office</span><br> Creation of both simple and complex documents. Presentation and spreedsheets. MS Word, MS Excel, Powerpoints</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Frontend developer intern at Rise vest Technologies</li>
+
+                            <li><span>2022 - 2023</span><br> Volunteer Frontend web developer at Chunk Africa</li>
+
+                            <li><span>2019 - 2021</span><br> 
+                                Field Operations Manager at G.C.G Ventures .</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span><br>Coursera. data structure and algorithms</li>
+
+                            <li><span>2021</span><br> Spraditech. Certificate for fullstack web Development</li>
+
+                            <li><span>2019</span><br> Society Of Performing Arts Nigeria (S.P.A.N).</li>
+                        </ul>
+                    </div>
+
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section  -->
+    <div id="services" class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>UI Design</h2>
+                    <p>I create quality website designs for your satisfaction. With quality as my main focus i aim to please with the best tools in place. To give your give your website a touch of class and beauty.</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <h2>Web Development</h2>
+                    <p>I build your websites from the ground up. Using the latest technologies available i seek to see that your website is delivered from start to finish at the highest quality, using proper SEO.</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-crop" aria-hidden="true"></i>
+                    <h2>S.E.O</h2>
+                   <p>So that your website can be reached by the world i also use standard search engine optimization techniques,which helps your page rank higher on Google and other search engines</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/rise-image.png" alt="">
+                    <div class="layer">
+                        <h3>This place holder</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque rerum ab reprehenderit voluptas aliquid tenetur harum adipisci accusamus delectus laboriosam?</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/rise-image.png" alt="">
+                    <div class="layer">
+                        <h3>This place holder</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex corrupti vel iure quis! Amet, quos commodi facilis quasi corporis dolore?</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="img/rise-image.png" alt="">
+                    <div class="layer">
+                        <h3>This place holder</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iste maiores nobis consequuntur soluta ratione commodi praesentium accusantium dolore suscipit!</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">GitHub</a>
+        </div>
+    </div>
+
+    <!-- This is the contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>timothy.christian@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 08126402934</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/christian.timothy.12/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/Timostickz04/"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/i_am_timostickz/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"class="btn btn2" >View CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Messaage" required></textarea>
+                        <button type="submit" class="btn btn2">SEND</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright ©Timothy. All right reserved<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
