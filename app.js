@@ -40,7 +40,7 @@ function closemenu(){
         msg.innerHTML = 'Message sent sucessfully :)'
         setTimeout(function(){
             msg.innerHTML = ""
-        }, 1000)
+        }, 5000)
         form.reset()
       })
       .catch(error => console.error('Error!', error.message))
