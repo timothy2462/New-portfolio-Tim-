@@ -1,244 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" />
 
-    <script src="https://kit.fontawesome.com/06e4965d66.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/06e4965d66.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Timostickz!</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- This is the header section -->
     <div id="header">
-        <div class="container">
-            <nav>
-                <!-- <div class="logo">
+      <div class="container">
+        <nav>
+          <!-- <div class="logo">
                     <img src="img/portfolio pics1.jpeg" alt="logo pics">
                 </div> -->
-                <h1 class="brand"><span>T</span>imothy.</h1>
-                <ul id="sidemenu">
-                  <li><a href="#Hheader">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <!-- hambuger -->
-                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
+          <h1 class="brand"><span>T</span>imothy.</h1>
+          <ul id="sidemenu">
+            <li><a href="#Hheader">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <!-- hambuger -->
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
 
-            <div class="header-text">
-                <p class="">FRONTEND ENGINEER</p>
-                <h1>Hi i'm <span class="typewriter">Timothy</span> <br>from Lagos Nigeria</h1>
-            </div>
+        <div class="header-text">
+          <p class="">FRONTEND ENGINEER</p>
+          <h1>
+            Hi i'm <span class="typewriter">Timothy</span> <br />from Lagos
+            Nigeria
+          </h1>
         </div>
-
+      </div>
     </div>
 
     <!-- This is the About Me section -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="img/new_timosticks.jpeg" alt="picture of timothy ">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p>
-                        I am a software developer, specialized in web development. I have over a year of experience in different web programming languages and technologies.
-                        I build platforms and apps that are easy to use and visually appealing to end-users for businesses and corporate entities.
-                        I have passion for technologies and I'm always eager to learn new ones and  keep up with the evolution of technology.
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/new_timosticks.jpeg" alt="picture of timothy " />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a software developer, specialized in web development. I have
+              over a year of experience in different web programming languages
+              and technologies. I build platforms and apps that are easy to use
+              and visually appealing to end-users for businesses and corporate
+              entities. I have passion for technologies and I'm always eager to
+              learn new ones and keep up with the evolution of technology. You
+              can connect with me via my contact or social media handles below.
+            </p>
 
-                        You can connect with me via my contact or social media handles below.
-                    </p>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills:</p>
-                        <p class="tab-links"  onclick="opentab('experience')">Experience:</p>
-                        <p class="tab-links"  onclick="opentab('education')">Education:</p>
-                    </div>
-
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Word Press (CMS)</span><br>Building & hosting websites with Content Management System </li>
-
-                            <li><span>Web Development</span><br> Build and maintain websites with codes from scratch to finish using suitable web technologies... STACKS; HTML & CSS, Bootstrap/Tailwind, JavaScript/ES6, React.js, Next.js, Git & Github etc.  </li>
-
-                            <li><span>Microsoft Office</span><br> Creation of both simple and complex documents. Presentation and spreedsheets. MS Word, MS Excel, Powerpoints</li>
-                        </ul>
-                    </div>
-
-
-
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2023 - Current</span><br> RiseVest HQ: Facility Department Office Maintanance </li>
-
-                            <li><span>2022 - current</span><br> Volunteer Frontend web developer at Chunk Africa</li>
-
-                            <li><span>2019 - 2021</span><br> 
-                                Field Operations Rep at G.C.G Ventures .</li>
-                        </ul>
-                    </div>
-
-
-
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2023</span><br>OND Office Technology And Management</li>
-
-                            <li><span>2022</span><br> Coursera & Udemy certificate for completion Frontend Web Development</li>
-
-                            <li><span>2019</span><br> Society Of Performing Arts Nigeria (S.P.A.N).</li>
-                        </ul>
-                    </div>
-
-
-                   
-                </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills:
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience:
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education:</p>
             </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Word Press (CMS)</span><br />Building & hosting websites
+                  with Content Management System
+                </li>
+
+                <li>
+                  <span>Web Development</span><br />
+                  Build and maintain websites with codes from scratch to finish
+                  using suitable web technologies... STACKS; HTML & CSS,
+                  Bootstrap/Tailwind, JavaScript/ES6, React.js, Next.js, Git &
+                  Github etc.
+                </li>
+
+                <li>
+                  <span>Microsoft Office</span><br />
+                  Creation of both simple and complex documents. Presentation
+                  and spreedsheets. MS Word, MS Excel, Powerpoints
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023 - Current</span><br />
+                  RiseVest HQ: Facility Department Office Maintanance
+                </li>
+
+                <li>
+                  <span>2022 - current</span><br />
+                  Volunteer Frontend web developer at Chunk Africa
+                </li>
+
+                <li>
+                  <span>2019 - 2021</span><br />
+                  Field Operations Rep at G.C.G Ventures .
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />OND Office Technology And Management
+                </li>
+
+                <li>
+                  <span>2022</span><br />
+                  Coursera & Udemy certificate for completion Frontend Web
+                  Development
+                </li>
+
+                <li>
+                  <span>2019</span><br />
+                  Society Of Performing Arts Nigeria (S.P.A.N).
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Services Section  -->
     <div id="services" class="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa fa-crop" aria-hidden="true"></i>
-                    <h2>UI Design</h2>
-                    <p>I create quality website designs for your satisfaction. With quality as my main focus i aim to please with the best tools in place. To give your give your website a touch of class and beauty.</p>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa fa-crop" aria-hidden="true"></i>
+            <h2>UI Design</h2>
+            <p>
+              I create quality website designs for your satisfaction. With
+              quality as my main focus i aim to please with the best tools in
+              place. To give your give your website a touch of class and beauty.
+            </p>
+          </div>
 
-                <div>
-                    <i class="fa fa-code" aria-hidden="true"></i>
-                    <h2>Web Development</h2>
-                    <p>I build your websites from the ground up. Using the latest technologies available i seek to see that your website is delivered from start to finish at the highest quality, using proper SEO.</p>
-                </div>
+          <div>
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h2>Web Development</h2>
+            <p>
+              I build your websites from the ground up. Using the latest
+              technologies available i seek to see that your website is
+              delivered from start to finish at the highest quality, using
+              proper SEO.
+            </p>
+          </div>
 
-                <div>
-                    <i class="fa fa-crop" aria-hidden="true"></i>
-                    <h2>S.E.O</h2>
-                   <p>So that your website can be reached by the world i also use standard search engine optimization techniques,which helps your page rank higher on Google and other search engines</p>
-                </div>
-            </div>
+          <div>
+            <i class="fa fa-crop" aria-hidden="true"></i>
+            <h2>S.E.O</h2>
+            <p>
+              So that your website can be reached by the world i also use
+              standard search engine optimization techniques,which helps your
+              page rank higher on Google and other search engines
+            </p>
+          </div>
         </div>
+      </div>
     </div>
-    
 
     <!-- Portfolio Section -->
     <div id="portfolio" class="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Works</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="img/Expense-tracker.png" alt="" class="img-height">
-                    <div class="layer">
-                        <h3>Expenses Tracker app</h3>
-                        <p>I built an Expenses tracker app using React.js to help users effortlessly track, manage and analyze their expenses and also stay on top of their financial health. Its easy to use and user friendly.</p>
-                        <a href="https://expenses-tracker-weld-delta.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="work">
-                    <img src="img/apple-logo2.png" alt="" class="img-height">
-                    <div class="layer">
-                        <h3>Apple Landing Page Clone</h3>
-                        <p>I sucessfully cloned Apple's landing page using HTML, CSS, and JavaScript, capturing the essence of their design and interactivity proving my ability to recreate complex web interfaces.</p>
-                        <a href="https://applewatchpage.netlify.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="work">
-                    <img src="img/rise-imge2.png" alt="">
-                    <div class="layer">
-                        <h3>RiseVest clone</h3>
-                        <p>
-                            I undertook the challenge of cloning Risevest's Home page, With a focus on enhancing user experience and visual appeal... I cloned the website using modern designs, principles and technologies. the project shows my frontend web development skills in recreating real-world fintech platforms.</p>
-                        <a href="https://risevest-clone-seven.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/Expense-tracker.png" alt="" class="img-height" />
+            <div class="layer">
+              <h3>Expenses Tracker app</h3>
+              <p>
+                I built an Expenses tracker app using React.js to help users
+                effortlessly track, manage and analyze their expenses and also
+                stay on top of their financial health. Its easy to use and user
+                friendly.
+              </p>
+              <a
+                href="https://expenses-tracker-weld-delta.vercel.app/"
+                target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
             </div>
+          </div>
 
-
-            <div class="work-list">
-                <div class="work">
-                    <img src="img/main-youtube.png" alt="" >
-                    <div class="layer">
-                        <h3>React.JS YouTube </h3>
-                        <p>With the aim of assisting my frieds in learning React, I developed an educational platform by cloning YouTube using React.js. This project serves as a dedicated platform for them to access a curated collection of React tutorials, allowing them to learn React concepts easily and effectively</p>
-                        <a href="https://tim-youtube-clone.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="work">
-                    <img src="img/main-food.png" alt="">
-                    <div class="layer">
-                        <h3>Food Recipi App</h3>
-                        <p>I created a (Desktop-version) food recipe web app using React.js, leveraging Spoonacular API to provide a vast collection of international food types, recipes, and step-by-step instructions, empowering users to explore and prepare diverse delicacies.</p>
-                        <a href="https://food-recipe-app-react-s4kw.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-
-                <div class="work">
-                    <img src="img/weather-img.png" alt="">
-                    <div class="layer">
-                        <h3>GeoWeather App</h3>
-                        <p>I built A weather app  in React.js using OpenWeatherMap API to display real-time weather data for any location. Search by location, visual weather representation, and responsive interface. Stay informed with accurate weather information worldwide.</p>
-                        <a href="https://weather-app-react-js-chi.vercel.app/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    </div>
-                </div>
+          <div class="work">
+            <img src="img/apple-logo2.png" alt="" class="img-height" />
+            <div class="layer">
+              <h3>Apple Landing Page Clone</h3>
+              <p>
+                I sucessfully cloned Apple's landing page using HTML, CSS, and
+                JavaScript, capturing the essence of their design and
+                interactivity proving my ability to recreate complex web
+                interfaces.
+              </p>
+              <a href="https://applewatchpage.netlify.app/" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
             </div>
+          </div>
 
-
-
-
-            <a href="https://github.com/timothy2462?tab=repositories" target="_blank" class="btn">GitHub</a>
+          <div class="work">
+            <img src="img/rise-imge2.png" alt="" />
+            <div class="layer">
+              <h3>RiseVest clone</h3>
+              <p>
+                I undertook the challenge of cloning Risevest's Home page, With
+                a focus on enhancing user experience and visual appeal... I
+                cloned the website using modern designs, principles and
+                technologies. the project shows my frontend web development
+                skills in recreating real-world fintech platforms.
+              </p>
+              <a href="https://risevest-clone-seven.vercel.app/" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
         </div>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="img/main-youtube.png" alt="" />
+            <div class="layer">
+              <h3>React.JS YouTube</h3>
+              <p>
+                With the aim of assisting my frieds in learning React, I
+                developed an educational platform by cloning YouTube using
+                React.js. This project serves as a dedicated platform for them
+                to access a curated collection of React tutorials, allowing them
+                to learn React concepts easily and effectively
+              </p>
+              <a href="https://tim-youtube-clone.vercel.app/" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="img/main-food.png" alt="" />
+            <div class="layer">
+              <h3>Food Recipi App</h3>
+              <p>
+                I created a (Desktop-version) food recipe web app using
+                React.js, leveraging Spoonacular API to provide a vast
+                collection of international food types, recipes, and
+                step-by-step instructions, empowering users to explore and
+                prepare diverse delicacies.
+              </p>
+              <a
+                href="https://food-recipe-app-react-s4kw.vercel.app/"
+                target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="img/weather-img.png" alt="" />
+            <div class="layer">
+              <h3>GeoWeather App</h3>
+              <p>
+                I built A weather app in React.js using OpenWeatherMap API to
+                display real-time weather data for any location. Search by
+                location, visual weather representation, and responsive
+                interface. Stay informed with accurate weather information
+                worldwide.
+              </p>
+              <a
+                href="https://weather-app-react-js-chi.vercel.app/"
+                target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- new added start -->
+
+          <div class="work">
+            <img src="img/movie-image.jpg" alt="picture of calculator" />
+            <div class="layer">
+              <h3>Movie App</h3>
+              <p>
+                I created a React-powered Movie Discovery App using the TMDB
+                API. Users can explore movie details, watch trailers, and check
+                out cast and crew info. An engaging platform for film
+                enthusiasts to discover and enjoy their favorite movies..
+              </p>
+              <a href="https://hng-movie-search-app.vercel.app/" target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img
+              src="img/sticker-maker.png"
+              alt=" sticker generator"
+              class="sticker-img"
+            />
+            <div class="layer">
+              <h3>Gifs images Generator</h3>
+              <p>
+                I developed a dynamic GIF Generator with Vite + React, granting
+                users access to a vast collection of GIFs, emojis, and stickers.
+                With a simple search feature, users can quickly find their
+                favorite animated images. It's a fun and expressive way to
+                enhance digital conversations and express emotions.
+              </p>
+              <a
+                href="https://hng-sticker-gallery-mjvzc4nfj-timothy2462.vercel.app/"
+                target="_blank"
+                ><i class="fa fa-external-link" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- new addded end  -->
+        </div>
+
+        <a
+          href="https://github.com/timothy2462?tab=repositories"
+          target="_blank"
+          class="btn"
+          >GitHub</a
+        >
+      </div>
     </div>
 
     <!-- This is the contact section -->
     <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 class="sub-title">Hire Me?</h1>
-                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>timothy.christian@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> 08126402934</p>
-                    <div class="social-icons">
-                        <a href="https://web.facebook.com/christian.timothy.12/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://twitter.com/Timostickz04/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/i_am_timostickz/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    </div>
-                    <a href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/" target="_blank" class="btn btn2" >View CV</a>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message"  rows="6" placeholder="Your Messaage" required></textarea>
-                        <button type="submit" class="btn btn2">SEND</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Hire Me?</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >timothy.christian@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 08126402934</p>
+            <div class="social-icons">
+              <a
+                href="https://web.facebook.com/christian.timothy.12/"
+                target="_blank"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/Timostickz04/" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/i_am_timostickz/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
             </div>
+            <a
+              href="https://www.linkedin.com/in/timothy-akobundu-73b1b3241/"
+              target="_blank"
+              class="btn btn2"
+              >View CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Messaage"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">SEND</button>
+            </form>
+            <span id="msg"></span>
+          </div>
         </div>
+      </div>
 
+      <!-- this is the footer section -->
 
-        <!-- this is the footer section -->
-
-
-        <div class="copyright">
-            <p>Copyright ©Timothy. All right reserved<i class="fa-solid fa-heart"></i></p>
-        </div>
+      <div class="copyright">
+        <p>
+          Copyright ©Timothy. All right reserved<i
+            class="fa-solid fa-heart"
+          ></i>
+        </p>
+      </div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
